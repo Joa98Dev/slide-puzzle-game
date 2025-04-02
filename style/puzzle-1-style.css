@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fa1b01;
+
+    /* Background image url */
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7743578.jpg&f=1&nofb=1&ipt=fded03d9e0f72d0c899b91a1497999431a32894377383e12635b3732322b195e');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+#sonic-font {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: inline-block;
+}
+
+audio {
+    display: block;            /* Makes the audio control a block element, forcing it below the text */
+    margin: 0 auto;            /* Centers the audio control */
+}
+
+/* Size of the logo */
+.logo {
+    height: 170px;
+    width: 400px;
+}
+
+
+#board {
+    /* Size of the board */
+    width: 370px;
+    height: 340px;
+
+    /* Background color of the board*/
+    background-color: #fef7f7;
+    
+    /* Border color of the board*/
+    border-top: 10px solid #00009c;
+    border-left: 10px solid #00009c;
+
+    border-bottom: 10px solid #a60010;
+    border-right: 10px solid #a60010;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Size of each part of the puzzle image */
+#board img {
+    width: 120px;
+    height: 110px;
+    border: 1px solid aliceblue;
+
+
+}
+

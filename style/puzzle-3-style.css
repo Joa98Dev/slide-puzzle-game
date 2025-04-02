@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #bf1a2b;
+
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.uhdpaper.com%2Fwallpaper%2Fresident-evil-4-remake-game-leon-and-ashley-126%401%40k-pc-4k.jpg&f=1&nofb=1&ipt=bce1cae410683a7c6dfe2247201341b06102940d3dcdd5aa7f10dc5dcfdb9198&ipo=images');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 140vh;
+}
+
+.logo {
+    height: 170px;
+    width: 400px;
+}
+
+#re-font {
+    background-color: rgb(22, 45, 52);
+    padding: 10px;
+    display: inline-block;
+}
+
+audio {
+    display: block;            /* Makes the audio control a block element, forcing it below the text */
+    margin: 0 auto;            /* Centers the audio control */
+    /*width: 50%;    */
+
+}
+/*
+.logo {
+    height: 170px;
+    width: 400px;
+}
+*/
+
+#board {
+    width: 1064px;
+    height: 1044px;
+    background-color: #fef7f7;
+    border: 10px solid #bf1a2b;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 130px;
+    height: 128px;
+    border: 1px solid aliceblue;
+
+
+}
+

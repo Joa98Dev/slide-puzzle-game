@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #747f6e;
+
+    background-image: url('https://wallpapercave.com/wp/wp13015655.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 120vh;
+}
+
+#silent-font {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: inline-block;
+}
+
+audio {
+    display: block;            /* Makes the audio control a block element, forcing it below the text */
+    margin: 0 auto;            /* Centers the audio control */
+    /*width: 50%;    */
+}
+.logo {
+    height: 170px;
+    width: 400px;
+}
+
+
+#board {
+    width: 740px;
+    height: 720px;
+    background-color: #fef7f7;
+    border: 10px solid #747f6e;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 181px;
+    height: 175px;
+    border: 1px solid aliceblue;
+}
+
